@@ -68,4 +68,5 @@ F-Scores:
 
 ## Summary: 
 
-The EasyEnsembleClassifier is the best model to use in this case, with 93% accuracy.
+The EasyEnsembleClassifier is the best model to use in this case, with 93% accuracy. However, even with this model, the F1 score is still 0.16. F scores are just a combined metric for precision and recall. In this case, our classifier is extremely accurate but it misses a significant number of instances that are difficult to classify. This means that there are likely some low risk candidates that are being categorized as high risk. Therefore, I would not recommend any of these models.
+
